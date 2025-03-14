@@ -44,18 +44,18 @@ def main():
     font_color2 = config.ORANGE
     font_color3 = config.PURPLE
 
-    text_pos = [300, 100]
-    text_pos2 = [150, 230]
-    text_pos3 = [400, 400]
+    text_pos = [200, 100]
+    text_pos2 = [50, 230]
+    text_pos3 = [250, 400]
 
     
     running = True
     while running:
         running = handle_events()
         screen.fill(config.WHITE) # Use color from config
-        draw_text(screen, 'WELCOME!', 50, font_name, font_color, text_pos, bold=True)
-        draw_text(screen, 'YOU WIN!!', 70, font_name2, font_color2, text_pos2, italic=True )
-        draw_text(screen, 'OH NO!', 100, font_name3, font_color3, text_pos3, bold=True, italic=True)
+        draw_text(screen, 'PJ VanDssen!', 50, font_name, font_color, text_pos, bold=True)
+        draw_text(screen, 'Web and App Devolpment PM!!', 40, font_name2, font_color2, text_pos2, italic=True )
+        draw_text(screen, 'Career Tech!', 100, font_name3, font_color3, text_pos3, bold=True, italic=True)
         
         
 
